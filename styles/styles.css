@@ -6,43 +6,34 @@
     box-sizing: border-box;
 }
 
-/* :root CSS Rule  */
-:root{
---padding: 10px;
---border: 1px solid rgba(0, 0, 0, 0.1);
---margin: 1rem;
-}
-
-
 nav {
     background-color: #0000ff;
-    padding: var(--padding);
-    margin: var(--margin);
+    padding: 1rem;
+    margin: 1rem;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: var(--padding);
+    padding: 10px;
 }
 
 h1 {
     color: #0000ff;
-    padding: var(--padding);
+    padding: 1rem;
 }
 
 main img {
     width: 100px;
     height: auto;
     border: 10px;
-    margin: var(--margin);
+    margin: 1rem;
     padding: 1px;
     box-shadow: 0 0 20px gray;
     float: right;
 }
 
-p { padding: var(--padding);
-}
+p { padding: 1rem;}
 
 main {
     max-width: 840px;;

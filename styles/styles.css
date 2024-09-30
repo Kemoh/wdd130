@@ -1,12 +1,21 @@
-/* :root CSS Rule */
+/* CSS Rule for wildcard */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root CSS Rule  */
 :root{
 --padding: 10px;
 --border: 1px solid rgba(0, 0, 0, 0.1);
 --margin: 1rem;
 }
 
+
 nav {
-    background-color: steelblue;
+    background-color: blue;
     padding: var(--padding);
     margin: var(--margin);
 }
@@ -18,17 +27,18 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: #0000ff;
     padding: var(--padding);
 }
 
 main img {
-    width: 150px;
+    width: 100px;
     height: auto;
     border: var(--border);
     margin: var(--margin);
     padding: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 20px gray;
+    float: right;
 }
 
 p { padding: var(--padding);
@@ -39,26 +49,34 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: var(--margin);
-    border: var(--border);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    text-align: center;
 }
 
 aside h2 {
-    padding: var(--padding);
-}
+    position: absolute;
+    top: 25px;
+    left: 7rem;
+    color: lightyellow;
+} 
 
 aside img {
     width: 200px;
     height: auto;
-    padding: var(--padding);
 }
 
 footer {
     margin-top: 15px;
     border-top: var(--border);
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #dddddd;
+    color: #000;
 }

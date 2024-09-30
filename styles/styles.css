@@ -15,7 +15,7 @@
 
 
 nav {
-    background-color: blue;
+    background-color: #0000ff;
     padding: var(--padding);
     margin: var(--margin);
 }
@@ -34,9 +34,9 @@ h1 {
 main img {
     width: 100px;
     height: auto;
-    border: var(--border);
+    border: 10px;
     margin: var(--margin);
-    padding: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1px;
     box-shadow: 0 0 20px gray;
     float: right;
 }
@@ -68,7 +68,7 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: var(--border);
+    border-top: 1px;
     text-align: center;
 }
 

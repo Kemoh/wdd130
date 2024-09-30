@@ -1,28 +1,38 @@
+/* :root CSS Rule */
+:root{
+--padding: 10px;
+--border: 1px solid rgba(0, 0, 0, 0.1);
+--margin: 1rem;
+}
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: var(--padding);
+    margin: var(--margin);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
     color: steelblue;
+    padding: var(--padding);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: var(--border);
+    margin: var(--margin);
+    padding: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px gray;
 }
 
-p { padding: 0;}
+p { padding: var(--padding);
+}
 
 main {
     max-width: 840px;;
@@ -30,20 +40,25 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: var(--margin);
+    border: var(--border);
     padding: 1rem;
     background-color: #eee;
     color: #333;
 }
 
+aside h2 {
+    padding: var(--padding);
+}
+
 aside img {
     width: 200px;
     height: auto;
+    padding: var(--padding);
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--border);
     text-align: center;
 }

@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #8884ff; /*Tropical Indigo */
+    --secondary-color: #2e2e3a80;
+    --accent-1: #4FB3A4;
+    --accent-2: #606C76;
+    --accent-3: #8884ff70;
+  }
+ 
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0 30px 30px 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Merriweather", serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1, 
+.hero article {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+
+.hero h1 {
+    top: 0;
+    font-size: 3rem;
+    width: 100%;
+    height: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.hero article {
+    bottom: 25%;
+    left: 5%;
+    right: 5%;
+    height: 45%;
+    background-color: var(--accent-3);   
+}
+
+.hero article img {
+    width: 18%;
+    height: auto;
+    float: right;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 0;
+   
+}
+
+article h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article p {
+    overflow: hidden;
+    margin-top: 5px;
+    padding-left: 2%;
+    padding-right: 5px;
+} 
+
+footer .social-links a {
+    text-decoration: none; 
+    display: inline-block;
+}
+
+footer .social-links img {
+    width: 30px; 
+    height: auto;
+    vertical-align: middle;
+}
+

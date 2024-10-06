@@ -17,7 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
-	/*position: relative; /* If removed, what happens? */
+	position: relative; /* If removed, what happens?*/
 }
 
 .herodiv img {
@@ -44,7 +44,7 @@ h3 {
 }
 
 footer {
-  /*position: fixed; /* If removed, what happens?*/
+    position: fixed; /*If removed, what happens? */
 	bottom: 0;
 	margin: 1rem;
 	border-top: 1px solid #000;
@@ -52,4 +52,11 @@ footer {
 	color: navy;
 	font-weight: 700;
 	font-style: italic;
+
+		/***** 
+   Remove the comment below on the declaration to see the clearing the float fix result with the footer.
+  ****/  
+
+/* clear: both; */
 }
+

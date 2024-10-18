@@ -22,7 +22,7 @@ nav {
 
 /* styling for nav bar a tags */
 nav a {
-    /* display: block; */
+    display: block;
     padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;

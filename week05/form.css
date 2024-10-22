@@ -1,0 +1,7 @@
+input:focus {
+    outline: 4px solid rebeccapurple;
+  }
+  
+  button {
+    margin-top: 1rem;
+  }

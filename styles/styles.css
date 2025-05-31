@@ -1,0 +1,123 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+h1 {
+    color: darkblue;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 1, 1, .5);
+    margin-bottom: 15px;
+}    
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, .5);
+    padding: 1px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 1rem 1rem;
+}
+
+aside p {
+    text-align: left;
+    
+}
+
+aside {
+    position: relative;
+    width: 20em;
+}
+
+.aside-img-div img {
+    width: 100%;
+}
+
+.aside-image {
+    width: 140px;
+    
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside h2 {
+    position: absolute;
+    top: 18px;
+    left: 25%;
+}
+
+.indent {
+    padding-left: 1rem;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+/* Another method */
+main {
+    grid-column: 2/3;
+    margin: 2rem;
+}
+
+main ul li {
+    margin-left: 1rem;
+}
+
+main ul {
+    margin-top: 1rem;
+}
+
+aside {
+    width: 16rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 1rem;
+}
+
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}

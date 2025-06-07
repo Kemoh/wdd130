@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/qiuz.css">
+</head>
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <div class="quiz-form">
+                <label for="question1">
+                   <span class="question-number">1.</span>What does the acronym CSS stands for
+                </label>
+                </div>
+                    <input type="text" id="question1" name="question1">
+            
+            <div class="quiz-form">
+                    <label for="question2">
+                       <span class="question-number">2.</span>How are id and class attributes selected in CSS?
+                    </label>
+            </div>
+            <textarea id="question2" name="question2"  rows="4">
+            </textarea>
+            <div class="quiz-form">
+                    <label for="question3">
+                       <span class="question-number">3.</span>Which of the following is a valid CSS comment
+                    </label>
+            </div>
+            <select id="question3" name="quiz" >
+                <option selected value="0">&lt;Select&gt;</option>
+                <option value="1">
+                     1. I am a CSS comment: &lt;!--hello! --&gt;
+                </option>
+                <option value="2">2. I am a CSS comment: // hello!</option>
+                <option value="3">3. I am a CSS comment: /* hello! */</option>
+            </select>
+            <div class="quiz-form">
+                <label for="question4">
+                    <span class="question-number">4.</span>
+                    What is the bottom margin given this declaration?
+                </label>
+            </div>
+            <div class="quiz-form-image">
+                <img src="images/quiz-image.png" alt="quiz image">
+            </div>
+                <input type="text" id="question4" name="quiz">
+                <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
